@@ -1,5 +1,7 @@
 # A simple task management web app
 
+# Note: Clicking on a task directly toggles setting as completed/uncompleted.
+
 This was built with Vite create react app.
 
 If you prefer not to set up the project locally, you can access the hosted version of the Task Management Web App at https://tm-test-henna.vercel.app/. This allows you to explore the app without going through the process of running it on your local machine. So you can check it out there!
