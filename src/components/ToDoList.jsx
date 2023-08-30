@@ -205,13 +205,16 @@ function ToDoList() {
                       todo.completed
                         ? "line-through text-greenTeal"
                         : "text-white"
-                    } cursor-pointer flex gap-2`}
+                    } cursor-pointer flex gap-2 text-xs sm:text-base`}
                     onClick={() => {
                       handleToggleCompleted(todo.id);
                     }}
                   >
                     {/* Due date functionality  */}
-                    {todo.task} <p>due by: {todo.dueDate}</p>
+                    {todo.task}{" "}
+                    <p className="text-xs sm:text-base ">
+                      due by: {todo.dueDate}
+                    </p>
                   </div>
                   <div>
                     <button
