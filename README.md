@@ -1,8 +1,38 @@
-# React + Vite
+# A simple task management web app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This was built with Vite create react app.
 
-Currently, two official plugins are available:
+This project is already hosted at https://tm-test-henna.vercel.app/ so you can check it out there!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Setting Up the Task Management Web App Locally
+To run the Task Management Web App on your local machine, follow these steps:
+
+Prerequisites
+Make sure you have the following software installed on your system:
+
+Node.js (version 14 or higher)
+Yarn
+
+# Installation
+Clone the Repository:
+
+Open your terminal and navigate to the directory where you want to store the project. Then, clone the repository.
+
+Navigate to the Project Directory:
+
+Move into the project directory you just finished cloning
+
+Install the project dependencies using Yarn:
+
+yarn install
+
+# Running the Development Server
+Now that you've installed the necessary dependencies, you can start the development server and run the app locally.
+
+yarn dev
+This will launch the development server. You should see output indicating that the app is being compiled and the server is running. By default, the app should be accessible at http://localhost:5173 or it may differ.
+
+Open your web browser and navigate to http://localhost:5173 to view the Task Management Web App in action!
+
+# Stopping the Development Server
+To stop the development server, go back to your terminal and press Ctrl + C.
