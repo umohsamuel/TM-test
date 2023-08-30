@@ -2,7 +2,7 @@
 
 This was built with Vite create react app.
 
-This project is already hosted at https://tm-test-henna.vercel.app/ so you can check it out there!
+If you prefer not to set up the project locally, you can access the hosted version of the Task Management Web App at https://tm-test-henna.vercel.app/. This allows you to explore the app without going through the process of running it on your local machine. So you can check it out there!
 
 # Setting Up the Task Management Web App Locally
 To run the Task Management Web App on your local machine, follow these steps:
